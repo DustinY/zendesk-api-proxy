@@ -1,0 +1,7 @@
+1. The app has a client ID, secret, issuer, and audience. This allows the app to be available via Okta.
+    ie. deactivating the app in Okta would render it unable o return data
+
+2. Then, we need to implement user auth to further authenticate
+    ie. user needs to pass username/password -> get stateToken
+        -> MFA
+        -> once authenticated, check that user has access to ZAP
