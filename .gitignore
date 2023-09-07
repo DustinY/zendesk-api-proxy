@@ -8,3 +8,4 @@ gen
 .env
 app.yaml
 .gcloudignore
+notes
