@@ -1,11 +1,11 @@
-from utilities.request_utils import RequestUtils
-from internal.zendesk.dependencies import ZendeskStrConstants, ZendeskDictConstants
+from app.utilities.request_utils import RequestUtils
+from app.internal.zendesk.dependencies import ZendeskStrConstants, ZendeskDictConstants
 import json
 from pydantic import BaseModel, Field
 from fastapi import APIRouter, Depends
 from typing import Optional, List
 from fastapi import Query
-from internal.okta.okta import Okta
+from app.internal.okta.okta import Okta
 
 ticket_router = APIRouter()
 

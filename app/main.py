@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.responses import JSONResponse
-from routers.okta import okta
-from routers.tickets import tickets
+from app.routers.okta import okta
+from app.routers.tickets import tickets
 
 api_app = FastAPI()
 

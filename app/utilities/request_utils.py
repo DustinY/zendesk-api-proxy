@@ -1,6 +1,6 @@
 from typing import Any
-from utilities import requests
-from utilities.encoding_utils import EncodingUtils
+import requests
+from app.utilities.encoding_utils import EncodingUtils
 
 class RequestUtils:
 

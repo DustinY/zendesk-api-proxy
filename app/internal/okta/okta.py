@@ -1,7 +1,7 @@
 import httpx
 from fastapi import Depends, HTTPException
 from fastapi.security import OAuth2PasswordBearer
-from config import Config
+from app.config import Config
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl='token')
 

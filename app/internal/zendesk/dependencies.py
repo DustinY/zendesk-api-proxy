@@ -1,6 +1,6 @@
 from enum import Enum
-from config import Config
-from utilities.request_utils import RequestUtils
+from app.config import Config
+from app.utilities.request_utils import RequestUtils
 
 
 class ZendeskDictConstants(dict, Enum):
